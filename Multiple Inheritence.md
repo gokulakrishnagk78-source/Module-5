@@ -24,6 +24,21 @@ To write a Python program to calculate **Add, Sub & Division** using **Multiple 
    - Display the results of the three operations.
 
 ## 💻 Program 
-Add code here
+Add code here\
+import pandas as pd
+a=eval(input())
+b=eval(input())
+df1=pd.DataFrame(a)
+df2=pd.DataFrame(b)
+print("Original DataFrames:")
+print(df1)
+print("-------------------------------------")
+print(df2)
+print()
+mer=pd.concat([df1,df2])
+print("Join the said two dataframes along rows:")
+print(mer)
 ## Output Example
+<img width="976" height="602" alt="image" src="https://github.com/user-attachments/assets/97eed890-4bbf-4eef-be96-8812aaf27c92" />
+
 
