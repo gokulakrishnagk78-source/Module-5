@@ -22,8 +22,18 @@ The program defines a class `Demo` with:
    - Delete the object using the `del` keyword.
 ## Program
 Add code Here
+import numpy as np  
+x=eval(input()) 
+y=eval(input()) 
+l1=np.array(x) 
+l2=np.array(y) 
+print(np.where(l1>l2)) 
+print(np.where(l1==l2))
 
 ## 🧪 Output
+<img width="978" height="270" alt="image" src="https://github.com/user-attachments/assets/0232269d-a1b2-4c10-a1ab-060079b0dc68" />
+
 
 ## Result
+hus the python program for element wise comparison between two numpy array has been implemented and executed successfully.
 
