@@ -13,7 +13,16 @@ To write a Python program that creates a **Student** class with a **default cons
 ## 🧾 Program
 
 Add code here
+import numpy as np 
+a=np.array(eval(input())) 
+print("Given array") 
+print(end=" ") 
+print(a) 
+print() 
+print(np.sort(a,axis=0))
 
 ## Output
+<img width="988" height="414" alt="image" src="https://github.com/user-attachments/assets/c0369975-ad08-464b-abf1-81f420e1c16f" />
 
 ## Result
+hus the python program for sorting each column in numpy has been implemented and executed successfully.
