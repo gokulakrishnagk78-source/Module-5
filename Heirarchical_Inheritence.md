@@ -32,5 +32,20 @@ To write a Python program that uses **Hierarchical Inheritance** to input and di
 
 ## Program
 Add code here
+```
+import numpy as np
+orig=np.array(eval(input()))
+new=np.array(eval(input()))
+print("Printing Original array")
+print(orig)
+modif=np.delete(orig,1,axis=1)
+print("Array after deleting column 2 on axis 1")
+print(modif)
+result=np.insert(modif,1,new,axis=1)
+print("Array after inserting column 2 on axis 1")
+print(result)
+```
+
 ## Sample Output
+<img width="852" height="256" alt="image" src="https://github.com/user-attachments/assets/37a1235c-bfd6-4268-9045-898f2228e389" />
 
